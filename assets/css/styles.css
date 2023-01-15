@@ -1,0 +1,75 @@
+/*------------- General -------------*/
+
+html,
+body {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+/*---------------- Navigation ----------------*/
+
+#button {
+  position: inherit;
+}
+
+#button:hover {
+  background: silver;
+  opacity: 0.7;
+  transition: background 0.5s ease;
+}
+
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+/*---------------- Home ----------------*/
+
+.background-image {
+  /* задаёт путь до файла */
+  background-image: url("https://i.pinimg.com/originals/f6/3b/ed/f63bedcc6b8f63c2a16222b30a52e0db.jpg");
+  /* задает стартовое положение изображения на странице */
+  background-position: center center;
+  /* определяет размер изображения на странице */
+  background-size: cover;
+  /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+  background-repeat: no-repeat;
+  /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+  вместе с остальной частью страницы или будет фиксированным */
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/*---------------- Contact ----------------*/
+
+/* Настраиваем внешний вид полей ввода*/
+input {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+textarea {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
