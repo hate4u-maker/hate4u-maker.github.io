@@ -1,5 +1,4 @@
-<!-- Через 10 секунд после появления сообщения об отправке или ошибке — отправляемся на сайт Кода :) -->
-<meta http-equiv='refresh' content='10; url=http://thecode.local/'>
+<meta http-equiv='refresh'>
 <meta charset="UTF-8" />
 <!-- Начался блок PHP -->
 <?php
