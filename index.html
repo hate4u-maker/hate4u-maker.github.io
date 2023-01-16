@@ -42,7 +42,6 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <h4>Контакты</h4>
             <ul>
               <li><a id="button" target="_blank" href="https://t.me/sanel555" class="btn"><svg class="bi" width="24" height="24"><use xlink:href="#telegram"/></svg> Telegram</a></li>
               <li><a id="button" target="_blank" href="tel:+79150673505" class="btn"><svg class="bi" width="24" height="24"><use xlink:href="#telephone"/></svg> +7 (915) 067 35 05</a></li>
@@ -72,28 +71,55 @@
         </div>
       </div>
     </div>
-    <section class="background-image position-relative">
-      <main role="main" class="container inner pt-5">
-      </main>
-    </section>
+    <main class="background-image">
+      <div id="carousel" class="carousel slide p-xxl-5 pt-xxl-5" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner opacity-75">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Первый слайд" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">Первый слайд</text></svg>
+      
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Второй слайд" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Второй слайд</text></svg>
+      
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Третий слайд" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Третий слайд</text></svg>
+      
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+    </main>
     <header>
-      <div class="px-2 fixed-bottom bg-secondary">
+      <div class="px-2 fixed-bottom bg-secondary opacity-75">
         <div class="container">
             <ul class="nav col-12 col-lg-auto justify-content-center my-md-0 text-small">
               <li>
-                <a id="button" href="#" class="btn">
+                <a id="button" href="#" class="btn btn-sm">
                   <svg class="bi d-block mx-auto" width="24" height="24"><use xlink:href="#home"/></svg>
                   Home
                 </a>
               </li>
               <li>
-                <a id="button" href="#" class="btn">
+                <a id="button" href="#" class="btn btn-sm">
                   <svg class="bi d-block mx-auto" width="24" height="24"><use xlink:href="#grid"/></svg>
                   Products
                 </a>
               </li>
               <li>
-                <button id="button" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                <button id="button" type="button" class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">
                   <svg class="bi d-block mx-auto" width="24" height="24"><use xlink:href="#people-circle"/></svg>
                   Contact
                 </button>

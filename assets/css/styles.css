@@ -40,6 +40,7 @@ body {
 /*---------------- Home ----------------*/
 
 .background-image {
+  z-index: -10;
   /* задаёт путь до файла */
   background-image: url("../img/background.jpg");
   /* задает стартовое положение изображения на странице */
